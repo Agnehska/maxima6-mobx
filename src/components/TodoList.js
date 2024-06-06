@@ -7,7 +7,7 @@ const TodoList = observer(() => {
 
   return (
     <ul>
-      {todoStore.todos.map((todo) => (
+      {todoStore.filteredTodos.map((todo) => (
         <li key={todo.id}>
           <input
             type="checkbox"
