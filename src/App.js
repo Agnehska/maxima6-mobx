@@ -3,6 +3,7 @@ import AddTodo from "./components/AddTodo";
 import TodoList from "./components/TodoList";
 import SearchTodo from "./components/SearchTodo";
 import FilterTodo from "./components/FilterTodo";
+import "./App.css";
 
 const App = () => {
   return (
